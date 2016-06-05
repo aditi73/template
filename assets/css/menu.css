@@ -25,78 +25,78 @@ File: Menu
 #topnav .has-submenu.active .submenu li.active a {
   color: #5fbeaa;
 }
-#topnav .topbar-main {
+#topnav .menu-extras {
   background-color: #36404a;
 }
-#navigation .logo {
+#logo {
   color: #000000 !important;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: .05em;
-  margin:30px 100px 0px 0px;
+  margin:40px 100px 0px 0px;
   text-transform: uppercase;
   float: left;
 }
-#navigation .logo h1 {
+#logo h1 {
   margin: 0px auto;
   text-align: center;
 }
-#navigation .logo i {
+#logo i {
   color: #5fbeaa;
 }
-#topnav .topbar-main .badge {
+#topnav .menu-extras .badge {
   position: absolute;
-  top: 12px;
+  top: 27px;
   right: 7px;
 }
-#topnav .topbar-main .nav > li > a {
-  color: #ffffff !important;
+#topnav .menu-extras .nav > li > a {
+  color: #797979 !important;
   line-height: 60px;
-  padding: 0px 15px;
+  padding: 15px 15px;
   position: relative;
   background: transparent !important;
 }
-#topnav .topbar-main .nav > li > a i {
+#topnav .menu-extras .nav > li > a i {
   font-size: 16px;
 }
-#topnav .topbar-main .navbar-nav > .open > a {
+#topnav .menu-extras .navbar-nav > .open > a {
   background-color: rgba(255, 255, 255, 0.1) !important;
 }
-#topnav .topbar-main .profile img {
+#topnav .menu-extras .profile img {
   border: 2px solid #edf0f0;
   height: 36px;
   width: 36px;
 }
-#topnav .topbar-main .dropdown-menu-lg {
+#navigation .dropdown-menu-lg {
   width: 300px;
 }
-#topnav .topbar-main .dropdown-menu-lg .list-group {
+#topnav .menu-extras .dropdown-menu-lg .list-group {
   margin-bottom: 0px;
 }
-#topnav .topbar-main .dropdown-menu-lg .list-group-item {
+#topnav .menu-extras .dropdown-menu-lg .list-group-item {
   border: none;
   padding: 10px 20px;
 }
-#topnav .topbar-main .dropdown-menu-lg .media-heading {
+#topnav .menu-extras .dropdown-menu-lg .media-heading {
   margin-bottom: 0px;
 }
-#topnav .topbar-main .dropdown-menu-lg .media-body p {
+#topnav .menu-extras .dropdown-menu-lg .media-body p {
   color: #828282;
 }
-#topnav .topbar-main .notification-list {
+#topnav .menu-extras .notification-list {
   max-height: 230px;
 }
-#topnav .topbar-main .notification-list em {
+#topnav .menu-extras .notification-list em {
   width: 34px;
   text-align: center;
 }
-#topnav .topbar-main .notification-list .media-body {
+#topnav .menu-extras .notification-list .media-body {
   display: inherit;
   width: auto;
   overflow: hidden;
   margin-left: 50px;
 }
-#topnav .topbar-main .notification-list .media-body h5 {
+#topnav .menu-extras .notification-list .media-body h5 {
   text-overflow: ellipsis;
   white-space: nowrap;
   display: block;
@@ -104,7 +104,7 @@ File: Menu
   font-weight: normal;
   overflow: hidden;
 }
-#topnav .topbar-main .notifi-title {
+#topnav .menu-extras .notifi-title {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 15px;
   text-transform: uppercase;
@@ -113,32 +113,10 @@ File: Menu
   color: #4c5667;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-#topnav .topbar-main .navbar-nav {
+#topnav .menu-extras .navbar-nav {
   margin: 0px;
 }
-#topnav .app-search {
-  position: relative;
-  margin: 15px 20px 15px 10px;
-}
-#topnav .app-search a {
-  position: absolute;
-  top: 5px;
-  right: 20px;
-  color: #c4c4cd;
-}
-#topnav .app-search .form-control,
-#topnav .app-search .form-control:focus {
-  border: none;
-  font-size: 13px;
-  color: #ffffff;
-  padding-left: 20px;
-  padding-right: 40px;
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: none;
-  border-radius: 30px;
-  height: 30px;
-  width: 180px;
-}
+
 #topnav .navbar-custom {
   background-color: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -149,7 +127,7 @@ File: Menu
   width: 60px;
   height: 60px;
   padding: 0;
-  margin: 0;
+  margin: 15px;
   cursor: pointer;
 }
 #topnav .navbar-toggle:hover {
@@ -174,7 +152,7 @@ File: Menu
 #topnav .navbar-toggle span {
   height: 2px;
   width: 100%;
-  background-color: #fff;
+  background-color: #797979 !important;
   display: block;
   margin-bottom: 5px;
   -webkit-transition: -webkit-transform 0.5s ease;
@@ -200,7 +178,7 @@ File: Menu
 }
 #topnav .navigation-menu {
   list-style: none;
-  margin: 0;
+  margin-top: 15px;
   padding: 0;
 }
 #topnav .navigation-menu > li {
@@ -356,7 +334,7 @@ File: Menu
 }
 @media (max-width: 991px) {
   .wrapper {
-    margin-top: 80px;
+    margin-top: 100px;
   }
   .container {
     width: auto;
@@ -433,7 +411,7 @@ File: Menu
   }
   #navigation {
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 0;
     width: 100%;
     display: none;
