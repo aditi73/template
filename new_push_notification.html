@@ -242,12 +242,12 @@
                                 
                               <form class="form-horizontal group-border-dashed" action="#">
                                   <div class="checkbox">
-                                      <input id="checkbox0" type="checkbox">
+                                      <input id="article" type="checkbox">
                                       <label for="checkbox0">
                                           <strong>Choose Article</strong>
                                       </label>
                                       <input type="text" name="country" id="autocomplete"
-                                                   class="form-control"/>
+                                                   class="form-control" style="display: none;margin-top: 20px;"/>
                                   </div>
                                   <br>
                                   <div class="form-group">
@@ -430,9 +430,23 @@
                 });
           $('.colorpicker-rgba').colorpicker();
           //Success Message
-    $('#sa-success').click(function(){
-        swal("Done!", "Push notification is sent successfully. All the users will recieve it shortly", "success")
-    });
+          $('#sa-success').click(function(){
+              swal("Done!", "Push notification is sent successfully. All the users will recieve it shortly", "success")
+          });
+                    $('#article').click(function(){
+            checkArticle();
+          });
+          checkArticle();
+          function checkArticle()
+          {
+            if (document.getElementById('article').checked){
+              $("#autocomplete").css('display','initial');
+            }
+            else
+            {
+              $("#autocomplete").css('display','none');
+            }
+          }
         </script>
 
 
