@@ -35,7 +35,7 @@
             onFinishing: function (event, currentIndex) {
                 $form_container.validate().settings.ignore = ":disabled";
 		alert("finished!");
-                //return $form_container.valid();
+                return $form_container.valid();
             },
             onFinished: function (event, currentIndex) {
                 alert("Submitted!");
