@@ -10,6 +10,7 @@
 
         <title>Ubold - Responsive Admin Dashboard Template</title>
 
+
         <!--Form Wizard-->
         <link rel="stylesheet" type="text/css" href="assets/plugins/jquery.steps/demo/css/jquery.steps.css" />
 
@@ -54,8 +55,11 @@
                             <br/>
                             <form id="basic-form" action="#">
                                 <div>
+                                    
+                                <!--section 1  -->
                                     <h3>Website</h3>
                                     <section>
+
                                         <div class="form-group clearfix">
                                             <div class="col-lg-5">
                                                 <input class="form-control required" id="userName" name="userName" type="text"  placeholder="Email">
@@ -66,10 +70,13 @@
                                                 <input id="url" required="required" name="password" type="text" class="required form-control" placeholder="Wordpress Website Url">
                                             </div>
                                         </div>
-                                        <div class="form-group clearfix">
-                                            <button type="button" class="btn btn-default waves-effect waves-light next_step_one">Sign Up</button>
-                                        </div>
+                                        
                                     </section>
+                                    <!--section 1  ends -->
+
+
+ 
+                                   <!--section 2  -->
                                     <h3>Install Plug-in</h3>
                                     <section>
                                         <div class="step_plugin">
@@ -81,60 +88,235 @@
                                         </div>
 
                                     </section>
+
+
+                                   <!--section 2  -->
+ 
+                                   
+                                   <!--section 3  -->
+ 
+
                                     <h3>Generate App</h3>
                                     <section>
                                         <div class="emulator_container">
                                             <div class="row">
                                                 <div class="col-sm-10">
                                                     <div class="row">
-                                                        <div class="col-lg-8">p</div>
-                                                        <div class="col-lg-4">l</div>
+
+
+                            <!-- - - - - - -  just for test  - - - - - - - - -->
+                    <div class="col-sm-12">
+                        <div class="card-box">
+                          <div class="customize" style="padding: 20px 50px 20px 50px; margin-bottom: 50px; ">
+                            <h4 class="m-t-0 m-b-30 header-title"><b>Create your App</b></h4>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form class="form-horizontal group-border-dashed" action="#">
+                                        <div class="form-group">
+                                          <label for="userName" class="col-xs-12">App Name*</label>
+                                          <div class="col-xs-8">
+                                            <input type="text" name="nick" parsley-trigger="change" required placeholder="Enter app name" class="form-control" id="userName">
+                                          </div>
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                          <label for="userName" >App Icon*</label>
+                                          <p class="text-muted font-13 m-b-30 " style="font-size: 10px !important;">
+                                              (Choose 800x800 px png/jpeg icon)
+                                          </p>
+                                          <input type="file" class="filestyle" data-input="false">
+                                        </div>
+                                        <div class="form-group col-sm-6" style="padding-left: 50px;">
+                                          <label for="userName" >App Logo*</label>
+                                          <p class="text-muted font-13 m-b-30 " style="font-size: 10px !important;">
+                                              (Choose 800x800 px png/jpeg icon)
+                                          </p>
+                                          <input type="file" class="filestyle" data-input="false">
+                                        </div>
+
+                                        
+                                        <div class="form-group">
+                                            <label class="col-xs-12">Tab Categories</label>
+                                            <select class="select2 select2-multiple" multiple="multiple" multiple data-placeholder="Choose ...">
+                                                <optgroup label="Central Time Zone">
+                                                    <option value="AL">Alabama</option>
+                                                    <option value="AR">Arkansas</option>
+                                                    <option value="IL">Illinois</option>
+                                                    <option value="IA">Iowa</option>
+                                                    <option value="KS">Kansas</option>
+                                                    <option value="KY">Kentucky</option>
+                                                    <option value="LA">Louisiana</option>
+                                                    <option value="MN">Minnesota</option>
+                                                    <option value="MS">Mississippi</option>
+                                                    <option value="MO">Missouri</option>
+                                                    <option value="OK">Oklahoma</option>
+                                                    <option value="SD">South Dakota</option>
+                                                    <option value="TX">Texas</option>
+                                                    <option value="TN">Tennessee</option>
+                                                    <option value="WI">Wisconsin</option>
+                                                </optgroup>
+                                            </select>      
+                                      </div>
+
+                                  <div class="form-group">
+                                            <label >Branding Colors</label>
+                                            <div class="col-xs-12">
+                                              <div data-color-format="rgb" data-color="rgb(255, 146, 180)" class="colorpicker-default col-xs-2">
+                                                  <span class="add-on">
+                                                      <button class="btn btn-white" type="button">
+                                                          <i style="background-color: rgb(124, 66, 84);margin-top: 2px;"></i>
+                                                      </button>
+                                                  </span>
+                                              </div>
+                                              <div data-color-format="rgb" data-color="rgb(255, 146, 180)" class="colorpicker-default col-xs-2">
+                                                  <span class="add-on">
+                                                      <button class="btn btn-white" type="button">
+                                                          <i style="background-color: rgb(124, 66, 84);margin-top: 2px;"></i>
+                                                      </button>
+                                                  </span>
+                                              </div>
+                                              <div data-color-format="rgb" data-color="rgb(255, 146, 180)" class="colorpicker-default col-xs-2">
+                                                  <span class="add-on">
+                                                      <button class="btn btn-white" type="button">
+                                                          <i style="background-color: rgb(124, 66, 84);margin-top: 2px;"></i>
+                                                      </button>
+                                                  </span>
+                                              </div>
+                                              <div data-color-format="rgb" data-color="rgb(255, 146, 180)" class="colorpicker-default col-xs-2">
+                                                  <span class="add-on">
+                                                      <button class="btn btn-white" type="button">
+                                                          <i style="background-color: rgb(124, 66, 84);margin-top: 2px;"></i>
+                                                      </button>
+                                                  </span>
+                                              </div>
+                                              <div data-color-format="rgb" data-color="rgb(255, 146, 180)" class="colorpicker-default col-xs-2">
+                                                  <span class="add-on">
+                                                      <button class="btn btn-white" type="button">
+                                                          <i style="background-color: rgb(124, 66, 84);margin-top: 2px;"></i>
+                                                      </button>
+                                                  </span>
+                                              </div>
+                                            </div>
+                                            
+                                  </div>
+                                  <br><br>
+                                  <div class="form-group">
+                                            <label class="col-xs-12">About Us Page</label>
+                                            <div class="col-xs-8">
+                                              <select class="selectpicker" data-style="btn-white">
+                                                  <option>Mustard</option>
+                                                  <option>Ketchup</option>
+                                                  <option>Relish</option>
+                                              </select>
+                                            </div>
+                                  </div>
+                                  <div class="form-group">
+                                            <label class="col-xs-12">Privacy Policy Page</label>
+                                            <div class="col-xs-8">
+                                              <select class="selectpicker" data-style="btn-white">
+                                                  <option>Mustard</option>
+                                                  <option>Ketchup</option>
+                                                  <option>Relish</option>
+                                              </select>
+                                            </div>
+                                  </div>
+                                        
+                                        
+                                        <div class="form-group m-b-0">
+                                            <div class="col-sm-9 m-t-15">
+                                                <button type="submit" class="btn btn-primary">
+                                                    Save as Draft
+                                                </button>
+                                                <button type="reset" class="btn btn-pink m-l-5">
+                                                    Get My App
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+             <!-- - - - - - - - just for test ends - - - - - - -  -->
                                                     </div>
                                                 </div>
                                             </div>
                                             <button type="button" class="btn btn-default waves-effect waves-light next_step_three">Generate App</button>
                                         </div>
                                     </section>
+
+
+
+      <!-- - - - - - -  - - section 3  ends - - - - - - - -->
+ 
+
+
+
+      <!-- - - - - - -  - - section 4   - - - - - - - -->
+ 
+
                                     <h3>Finish</h3>
                                     <section class="full_width">
 
-                                        <div class="row pricing-plan">
-                                            <div class="price_container">
-                                                <div class="price_card text-center price_card_margin_right">
-                                                    <div class="pricing-header bg-primary">
-                                                        <span class="price">$19</span>
-                                                        <span class="name">Starter Pack</span>
-                                                    </div>
-                                                    <ul class="price-features">
-                                                        <li>5 Projects</li>
-                                                        <li>1 GB Storage</li>
-                                                        <li>No Domain</li>
-                                                        <li>1 User</li>
-                                                        <li>24x7 Support</li>
-                                                    </ul>
-                                                    <button class="btn btn-primary waves-effect waves-light w-md">Sign Up</button>
-                                                </div> <!-- end Pricing_card -->
+                            <!-- -  - - -  pricing - - - - -->
 
-                                                <div class="price_card text-center">
-                                                    <div class="pricing-header bg-pink">
-                                                        <span class="price">$29</span>
-                                                        <span class="name">Professional Pack</span>
-                                                    </div>
-                                                    <ul class="price-features">
-                                                        <li>15 Projects</li>
-                                                        <li>5 GB Storage</li>
-                                                        <li>2 Domain</li>
-                                                        <li>10 User</li>
-                                                        <li>24x7 Support</li>
-                                                    </ul>
-                                                    <button class="btn btn-pink w-md waves-effect waves-light">Sign Up</button>
-                                                </div>
-                                                <div class="clearfix"></div>
-                                            </div>
-                                        </div> <!-- end row -->
 
-                                    </section>
+                <div class="row pricing-plan">
+                    <div class="col-md-10 col-sm-offset-2 ">
+
+                        <div class="row">
+
+                            <div class="col-sm-5 col-md-5 col-lg-5">
+                                <div class="price_card text-center">
+                                    <div class="pricing-header bg-primary">
+                                        <span class="price">$19</span>
+                                        <span class="name">You host</span>
+                                    </div>
+                                    <ul class="price-features">
+                                        <li>5 Projects</li>
+                                        <li>1 GB Storage</li>
+                                        <li>No Domain</li>
+                                        <li>1 User</li>
+                                        <li>24x7 Support</li>
+                                    </ul>
+                                    <button class="btn btn-primary waves-effect waves-light w-md">Choose Plan</button>
+                                </div> <!-- end Pricing_card -->
+                           
+                            </div> <!-- end col -->
+
+                            <div class="col-sm-5 col-md-5 col-lg-5">
+                                <div class="price_card text-center">
+                                    <div class="pricing-header bg-pink">
+                                        <span class="price">$29</span>
+                                        <span class="name">We Host</span>
+                                    </div>
+                                    <ul class="price-features">
+                                        <li>15 Projects</li>
+                                        <li>5 GB Storage</li>
+                                        <li>2 Domain</li>
+                                        <li>10 User</li>
+                                        <li>24x7 Support</li>
+                                    </ul>
+                                    <button class="btn btn-pink w-md waves-effect waves-light">Choose Plan</button>
                                 </div>
+                            </div> <!-- end col -->
+
+                        </div> <!-- end row -->
+                    </div> <!-- end Col-10 -->
+                </div> <!-- end row -->
+
+
+
+
+                            <!--  pricing ends -->
+                                    </section>
+                            
+
+
+      <!-- - - - - - -  - - section 4  ends - - - - - - - -->
+ 
+                                </div>
+                            
                             </form>
 
                         </div>
@@ -196,4 +378,75 @@
         <script src="assets/pages/jquery.wizard-init.js" type="text/javascript"></script>
 
     </body>
+        <script>
+            jQuery(document).ready(function() {
+
+                //advance multiselect start
+                $('#my_multi_select3').multiSelect({
+                    selectableHeader: "<input type='text' class='form-control search-input' autocomplete='off' placeholder='search...'>",
+                    selectionHeader: "<input type='text' class='form-control search-input' autocomplete='off' placeholder='search...'>",
+                    afterInit: function (ms) {
+                        var that = this,
+                            $selectableSearch = that.$selectableUl.prev(),
+                            $selectionSearch = that.$selectionUl.prev(),
+                            selectableSearchString = '#' + that.$container.attr('id') + ' .ms-elem-selectable:not(.ms-selected)',
+                            selectionSearchString = '#' + that.$container.attr('id') + ' .ms-elem-selection.ms-selected';
+
+                        that.qs1 = $selectableSearch.quicksearch(selectableSearchString)
+                            .on('keydown', function (e) {
+                                if (e.which === 40) {
+                                    that.$selectableUl.focus();
+                                    return false;
+                                }
+                            });
+
+                        that.qs2 = $selectionSearch.quicksearch(selectionSearchString)
+                            .on('keydown', function (e) {
+                                if (e.which == 40) {
+                                    that.$selectionUl.focus();
+                                    return false;
+                                }
+                            });
+                    },
+                    afterSelect: function () {
+                        this.qs1.cache();
+                        this.qs2.cache();
+                    },
+                    afterDeselect: function () {
+                        this.qs1.cache();
+                        this.qs2.cache();
+                    }
+                });
+
+                // Select2
+                $(".select2").select2();
+
+                $(".select2-limiting").select2({
+          maximumSelectionLength: 2
+        });
+
+         $('.selectpicker').selectpicker();
+              $(":file").filestyle({input: false});
+              });
+
+              //Bootstrap-TouchSpin
+              $(".vertical-spin").TouchSpin({
+                verticalbuttons: true,
+                verticalupclass: 'ion-plus-round',
+                verticaldownclass: 'ion-minus-round'
+            });
+            var vspinTrue = $(".vertical-spin").TouchSpin({
+                verticalbuttons: true
+            });
+            if (vspinTrue) {
+                $('.vertical-spin').prev('.bootstrap-touchspin-prefix').remove();
+            }
+          $('.colorpicker-default').colorpicker({
+                    format: 'hex'
+                });
+          $('.colorpicker-rgba').colorpicker();
+        </script>
+
+
+
 </html>
