@@ -10,3 +10,7 @@
     display: block;
     width: 100%;
 }
+
+.img-thumbnail {
+	border:0px;
+}
