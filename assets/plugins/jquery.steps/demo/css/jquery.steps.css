@@ -220,7 +220,7 @@
 .wizard > .actions
 {
     position: relative;
-    text-align: center;
+    text-align: right;
     display: block;
     width: 100%;
 }
