@@ -1937,7 +1937,7 @@ var defaults = $.fn.steps.defaults = {
      * @default function (event, currentIndex) { }
      * @for defaults
      **/
-    onFinished: function (event, currentIndex) {window.location.href="/home/aditi/template/dashboard.html" },
+    onFinished: function (event, currentIndex) {window.location.href="index.html" },
 
     /**
      * Fires after async content is loaded. 

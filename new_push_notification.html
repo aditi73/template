@@ -266,7 +266,9 @@
                                       <p class="text-muted font-13 ">
                                         (Choose 800x800 px png/jpeg icon)
                                       </p>
-                                      <input type="file" class="filestyle" data-input="false">
+                                      <input type="file" class="filestyle" id="push_image" data-input="false" onchange="readURL(this);">
+                                      <br>
+                                      <img id="article_image" src="#" alt="" />
                                   </div>                               
                                                             
                                   <div class="form-group m-b-0">
@@ -404,8 +406,8 @@
         });
 
          $('.selectpicker').selectpicker();
-              $(":file").filestyle({input: false});
-              });
+          $(":file").filestyle({input: false});
+        });
 
               //Bootstrap-TouchSpin
               $(".vertical-spin").TouchSpin({
@@ -427,10 +429,11 @@
           $('#sa-success').click(function(){
               swal("Done!", "Push notification is sent successfully. All the users will recieve it shortly", "success")
           });
-                    $('#article').click(function(){
+          $('#article').click(function(){
             checkArticle();
           });
           checkArticle();
+          
           function checkArticle()
           {
             if (document.getElementById('article').checked){
@@ -441,6 +444,21 @@
               $("#autocomplete").css('display','none');
             }
           }
+          function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#article_image')
+                        .attr('src', e.target.result)
+                        .width(350)
+                        .height(200);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
         </script>
 
 
