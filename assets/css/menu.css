@@ -28,13 +28,16 @@ File: Menu
 #topnav .menu-extras {
   background-color: #36404a;
 }
+#inner-navbar{
+  height:70px;
+}
 #logo {
   color: #000000 !important;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: .05em;
-  margin:30px 10px 0px 0px;
-  padding-right: 80px;
+  margin-top:10px;
+  padding-right: 60px;
   text-transform: uppercase;
   float: left;
 }
@@ -47,13 +50,13 @@ File: Menu
 }
 #topnav .menu-extras .badge {
   position: absolute;
-  top: 27px;
+  top: 15px;
   right: 7px;
 }
 #topnav .menu-extras .nav > li > a {
   color: #797979 !important;
   line-height: 60px;
-  padding: 15px 15px;
+  padding: 0px 15px;
   position: relative;
   background: transparent !important;
 }
@@ -128,7 +131,7 @@ File: Menu
   width: 60px;
   height: 60px;
   padding: 0;
-  margin: 15px;
+  margin: 0;
   cursor: pointer;
 }
 #topnav .navbar-toggle:hover {
@@ -179,7 +182,7 @@ File: Menu
 }
 #topnav .navigation-menu {
   list-style: none;
-  margin-top: 15px;
+  margin-top: 0px;
   padding: 0;
 }
 #topnav .navigation-menu > li {
@@ -228,8 +231,8 @@ File: Menu
 }
 @media (min-width: 992px) {
   #topnav .navigation-menu > li > a {
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
 }
 /*
@@ -412,7 +415,7 @@ File: Menu
   }
   #navigation {
     position: absolute;
-    top: 90px;
+    top: 70px;
     left: 0;
     width: 100%;
     display: none;
@@ -467,7 +470,7 @@ File: Menu
 }
 @media (max-width: 375px){
   #topnav .navbar-toggle {
-    margin:15px -20px 15px 0px;
+    margin:0px -20px 15px 0px;
     cursor: pointer;
   }  
 }
