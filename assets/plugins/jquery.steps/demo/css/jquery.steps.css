@@ -220,8 +220,8 @@
 .wizard > .actions
 {
     position: relative;
-    display: block;
     text-align: right;
+    display: block;
     width: 100%;
 }
 
@@ -236,7 +236,7 @@
 .wizard > .actions > ul
 {
     display: inline-block;
-    text-align: right;
+   
 }
 
 .wizard > .actions > ul > li
